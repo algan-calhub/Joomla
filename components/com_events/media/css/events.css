@@ -1,0 +1,38 @@
+.com-events {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.com-events .event-entry {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.com-events--modern .event-entry {
+    flex-direction: column;
+    border-bottom: none;
+}
+
+.event-date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    font-size: 1.2rem;
+}
+
+.event-day {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.event-meta {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.875rem;
+}
