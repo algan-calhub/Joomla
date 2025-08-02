@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fields name="basic">
+        <fieldset name="basic">
+            <field name="title" type="text" label="JGLOBAL_TITLE" required="true" />
+            <field name="event_date" type="calendar" format="%d.%m.%Y" label="COM_EVENTS_EVENT_DATE" required="true" />
+            <field name="description" type="textarea" label="COM_EVENTS_DESCRIPTION" />
+            <field name="start_time" type="text" label="COM_EVENTS_START_TIME" />
+            <field name="end_time" type="text" label="COM_EVENTS_END_TIME" />
+            <field name="location" type="text" label="COM_EVENTS_LOCATION" />
+            <field name="extra_info" type="textarea" label="COM_EVENTS_EXTRA_INFO" />
+        </fieldset>
+    </fields>
+</form>
